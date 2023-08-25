@@ -16,7 +16,7 @@ import 'swiper/css/navigation';
 import "./swiper3.css"
 const ShowCase = () => {
   return(
-      <section className='w-full h-auto md:h-[550px] container mx-auto py-9 px-3 showcase'>
+      <section className='w-full h-auto md:h-[550px] container mx-auto py-5 px-3 showcase'>
             <div className="bg-url w-full h-full rounded-3xl">
                 <div className="w-full flex flex-wrap h-full">
                     <div className="w-full md:w-[35%] flex flex-col justify-center items-center h-full">

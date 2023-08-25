@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import "./swiper2.css"
 const TryNew = () => {
   return(
-      <section className='container mx-auto py-9 pl-3  relative'>
+      <section className='container mx-auto py-5 pl-3  relative'>
           <div className='w-full h-[200px]'>
               <Swiper
                   grabCursor={true}

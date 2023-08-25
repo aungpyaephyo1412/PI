@@ -3,6 +3,13 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination} from "swiper/modules";
 import {BiRightArrow} from "react-icons/bi";
 import vape1 from "../assets/DreamShaper_v7_vape_item_only_no_person_0.jpg";
+import vape2 from "../assets/DreamShaper_v7_vape_item_only_no_person_4 (1).jpg";
+import vape3 from "../assets/DreamShaper_v7_vape_item_only_no_person_4.jpg";
+import vape4 from "../assets/DreamShaper_v7_vape_item_only_no_person_5.jpg";
+import vape5 from "../assets/DreamShaper_v7_vape_item_only_no_person_5 (1).jpg";
+import vape6 from "../assets/DreamShaper_v7_vape_item_only_no_person_6 (1).jpg";
+import vape7 from "../assets/DreamShaper_v7_vape_item_only_no_person_7 (2).jpg";
+import vape8 from "../assets/DreamShaper_v7_vape_item_only_no_person_7.jpg";
 import {BsFillStarFill} from "react-icons/bs";
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -42,10 +49,10 @@ const ShowCase = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -53,11 +60,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape2} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -65,11 +72,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape3} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -77,11 +84,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape4} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -89,11 +96,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape5} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -101,11 +108,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape6} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -113,11 +120,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape7} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>
@@ -125,11 +132,11 @@ const ShowCase = () => {
                                 </SwiperSlide>
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
-                                        <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-xl md:text-2xl font-normal'>Refreshing Mint</h1>
-                                        <p className='text-lg lg:text-xl font-semibold'>30000MMK</p>
-                                        <p className='text-sm lg:text-lg line-through'>30000MMK</p>
-                                        <div className='flex text-yellow-500 justify-center items-center gap-x-2'>
+                                        <img src={vape8} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
+                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
+                                        <p className='text-xs lg:text-lg line-through'>30000MMK</p>
+                                        <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
                                             <BsFillStarFill/>
                                             600 points
                                         </div>

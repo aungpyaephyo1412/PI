@@ -14,7 +14,7 @@ const Released = () => {
               <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-5 mb-7">
                   <div className='h-[250px] relative'>
                       <img src={vape1} className='block w-full h-full object-cover object-top rounded-3xl' alt=""/>
-                      <div className='absolute bottom-2 left-0 px-5 pb-3 text-white text-[15px]'>
+                      <div className='absolute bottom-2 left-0 px-3 md:px-5 pb-3 text-white text-[15px]'>
                           <h1>Citrus Mon</h1>
                           <p>2000 Pul</p>
                           <p>Disposable</p>
@@ -24,7 +24,7 @@ const Released = () => {
                   </div>
                   <div className='h-[250px] relative'>
                       <img src={vape2} className='block w-full h-full object-cover object-top rounded-3xl' alt=""/>
-                      <div className='absolute bottom-2 left-0 px-5 pb-3 text-white text-[15px]'>
+                      <div className='absolute bottom-2 left-0 px-3 md:px-5 pb-3 text-white text-[15px]'>
                           <h1>Citrus Mon</h1>
                           <p>2000 Pul</p>
                           <p>Disposable</p>
@@ -34,7 +34,7 @@ const Released = () => {
                   </div>
                   <div className='h-[250px] relative'>
                       <img src={vape3} className='block w-full h-full object-cover object-top rounded-3xl' alt=""/>
-                      <div className='absolute bottom-2 left-0 px-5 pb-3 text-white text-[15px]'>
+                      <div className='absolute bottom-2 left-0 px-3 md:px-5 pb-3 text-white text-[15px]'>
                           <h1>Citrus Mon</h1>
                           <p>2000 Pul</p>
                           <p>Disposable</p>
@@ -44,7 +44,7 @@ const Released = () => {
                   </div>
                   <div className='h-[250px] relative'>
                       <img src={vape4} className='block w-full h-full object-cover object-top rounded-3xl' alt=""/>
-                      <div className='absolute bottom-2 left-0 px-5 pb-3 text-white text-[15px]'>
+                      <div className='absolute bottom-2 left-0 px-3 md:px-5 pb-3 text-white text-[15px]'>
                           <h1>Citrus Mon</h1>
                           <p>2000 Pul</p>
                           <p>Disposable</p>

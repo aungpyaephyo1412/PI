@@ -49,7 +49,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape1} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -61,7 +61,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape2} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -73,7 +73,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape3} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -85,7 +85,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape4} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -97,7 +97,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape5} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -109,7 +109,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape6} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -121,7 +121,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape7} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>
@@ -133,7 +133,7 @@ const ShowCaseThree = () => {
                                 <SwiperSlide className='w-full h-full flex justify-center rounded-2xl overflow-hidden bg-transparent'>
                                     <div className='w-full h-full flex flex-col justify-center items-center text-white'>
                                         <img src={vape8} height={"100px"} className='sw3-img w-full  mb-3' alt="vape1"/>
-                                        <h1 className='text-lg md:text-2xl font-normal'>Refreshing Mint</h1>
+                                        <h1 className='text-lg lg:text-2xl font-normal'>Refreshing Mint</h1>
                                         <p className='text-sm lg:text-xl font-semibold'>30000MMK</p>
                                         <p className='text-xs lg:text-lg line-through'>30000MMK</p>
                                         <div className='flex text-yellow-500 justify-center text-sm items-center gap-x-2'>

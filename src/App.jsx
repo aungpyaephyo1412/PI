@@ -6,6 +6,7 @@ import TryNew from "./components/TryNew.jsx";
 import ShowCase from "./components/ShowCase.jsx";
 import ShowCaseTwo from "./components/ShowCaseTwo.jsx";
 import ShowCaseThree from "./components/ShowCaseThree.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return(
@@ -18,6 +19,7 @@ const App = () => {
           <ShowCase/>
           <ShowCaseTwo/>
           <ShowCaseThree/>
+          <Footer/>
       </>
   )
 }

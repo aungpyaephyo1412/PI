@@ -12,7 +12,7 @@ import QR from '../assets/icons/qr-code.png'
 const Footer = () => {
     return(
         <footer>
-            <div className="container mx-auto p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start">
+            <div className="container mx-auto p-5 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start">
                 <div className="flex flex-col justify-center items-start">
 
                         <h1 className='text-2xl font-semibold mb-4'>

@@ -1,7 +1,7 @@
 import {MdOutlinePrivacyTip} from "react-icons/md";
 import {FaArrowRotateLeft, FaPhone} from "react-icons/fa6";
 import KBZ from '../assets/icons/blue-L.jpeg'
-import Wave from '../assets/icons/520px-WaveMoney.png'
+import Wave from '../assets/icons/photo_2023-08-25_21-27-27.jpg'
 import Facebook from '../assets/icons/icons8-facebook-48.png'
 import Instagram from '../assets/icons/icons8-instagram-48.png'
 import Twitter from '../assets/icons/icons8-twitter-48.png'
@@ -30,10 +30,10 @@ const Footer = () => {
                     </h1>
                     <div className='flex justify-center items-center gap-x-4'>
                         <a href="#">
-                            <img src={KBZ} className='w-[50px] object-cover' alt=""/>
+                            <img src={KBZ} className='w-[50px]  h-[50px] rounded-xl object-cover' alt=""/>
                         </a>
                         <a href="#">
-                            <img src={Wave} className='h-[90px] object-cover' alt=""/>
+                            <img src={Wave} className='w-[50px] h-[50px] rounded-xl object-cover' alt=""/>
                         </a>
                     </div>
 
@@ -43,18 +43,18 @@ const Footer = () => {
                     <h1 className='text-2xl font-semibold mb-7'>
                         Languages
                     </h1>
-                    <button className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
-                        <input type='radio'  className='cursor-pointer'/>
-                        Myanmar (Unicode)
-                    </button>
-                    <button className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
-                        <input type='radio' checked className='cursor-pointer'/>
-                        Myanmar (Zawgyi)
-                    </button>
-                    <button className='flex justify-center items-center gap-x-1 text-[17px]'>
-                        <input type='radio' className='cursor-pointer'/>
-                        English
-                    </button>
+                    <div className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
+                        <input type='radio' id='myanUNI'  name="language" className='cursor-pointer'/>
+                        <label htmlFor='myanUNI'>Myanmar (Unicode </label>)
+                    </div>
+                    <div className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
+                        <input type='radio' id='myanZAW' name="language" className='cursor-pointer'/>
+                        <label htmlFor='myanZAW'>Myanmar (Zawgyi) </label>
+                    </div>
+                    <div className='flex justify-center items-center gap-x-1 text-[17px]'>
+                        <input type='radio' id='eng' name="language" className='cursor-pointer'/>
+                        <label htmlFor='eng'>English </label>
+                    </div>
                     <h1 className='text-2xl font-semibold my-7'>
                         Follow us on
                     </h1>

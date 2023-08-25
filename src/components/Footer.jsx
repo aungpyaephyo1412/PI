@@ -18,14 +18,14 @@ const Footer = () => {
                             Customer Services
                         </h1>
                         <a href="#" className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
-                            <MdOutlinePrivacyTip/>
+                            <MdOutlinePrivacyTip className='text-xl font-bold'/>
                             Terms&Privacy Policy
                         </a>
                     <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>
-                        <FaArrowRotateLeft/>
+                        <FaArrowRotateLeft className='text-xl font-bold'/>
                         Return Policy
                     </a>
-                    <h1 className='text-2xl font-semibold my-7'>
+                    <h1 className='text-2xl font-semibold mt-7'>
                         Payments
                     </h1>
                     <div className='flex justify-center items-center gap-x-4'>
@@ -83,7 +83,7 @@ const Footer = () => {
                         Contact us
                     </h1>
                     <a href="#" className='flex justify-start items-start gap-x-1 text-[17px] mb-2'>
-                        <HiOutlineLocationMarker className='text-5xl mb-3'/>
+                        <HiOutlineLocationMarker className='text-6xl mb-3'/>
                         <span className='text-sm'>
                             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawanna, Thingangyun Township, Yangon.
                         </span>
@@ -101,7 +101,6 @@ const Footer = () => {
                     <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <img src={QR} className='h-[100px]' alt=""/>
                     </a>
-
                 </div>
             </div>
         </footer>

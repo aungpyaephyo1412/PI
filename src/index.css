@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.glass{
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+}
+.img-url{
+    background: url("https://images.unsplash.com/photo-1635347319127-6a064615dedf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0ODcyOTV8MHwxfHNlYXJjaHwxNnx8dmFwZXxlbnwwfHx8fDE2OTI4OTQxMDJ8MA&ixlib=rb-4.0.3&q=85");
+}

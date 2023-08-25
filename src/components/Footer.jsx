@@ -14,19 +14,18 @@ const Footer = () => {
         <footer>
             <div className="container mx-auto p-5 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start">
                 <div className="flex flex-col justify-center items-start">
-
-                        <h1 className='text-2xl font-semibold mb-4'>
+                        <h1 className='text-2xl font-semibold mb-7'>
                             Customer Services
                         </h1>
                         <a href="#" className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
                             <MdOutlinePrivacyTip/>
                             Terms&Privacy Policy
                         </a>
-                    <a href="#" className='flex justify-center items-center gap-x-1 text-[17px] mb-5'>
+                    <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <FaArrowRotateLeft/>
                         Return Policy
                     </a>
-                    <h1 className='text-2xl font-semibold mb-4'>
+                    <h1 className='text-2xl font-semibold my-7'>
                         Payments
                     </h1>
                     <div className='flex justify-center items-center gap-x-4'>
@@ -41,7 +40,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col justify-center items-start">
 
-                    <h1 className='text-2xl font-semibold mb-4'>
+                    <h1 className='text-2xl font-semibold mb-7'>
                         Languages
                     </h1>
                     <button className='flex justify-center items-center gap-x-1 text-[17px] mb-2'>
@@ -52,11 +51,11 @@ const Footer = () => {
                         <input type='radio' checked className='cursor-pointer'/>
                         Myanmar (Zawgyi)
                     </button>
-                    <button className='flex justify-center items-center gap-x-1 text-[17px] mb-5'>
+                    <button className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <input type='radio' className='cursor-pointer'/>
                         English
                     </button>
-                    <h1 className='text-2xl font-semibold mb-4'>
+                    <h1 className='text-2xl font-semibold my-7'>
                         Follow us on
                     </h1>
                     <div className='flex justify-center items-center gap-x-4'>
@@ -80,23 +79,23 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col justify-center items-start">
 
-                    <h1 className='text-2xl font-semibold mb-4'>
+                    <h1 className='text-2xl font-semibold mb-7'>
                         Contact us
                     </h1>
                     <a href="#" className='flex justify-start items-start gap-x-1 text-[17px] mb-2'>
-                        <HiOutlineLocationMarker className='text-5xl'/>
+                        <HiOutlineLocationMarker className='text-5xl mb-3'/>
                         <span className='text-sm'>
                             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawanna, Thingangyun Township, Yangon.
                         </span>
                     </a>
-                    <a href="#" className='flex justify-center items-center gap-x-1 text-[17px] mb-5'>
+                    <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <FaPhone/>
                         09458489548
                     </a>
                 </div>
                 <div className="flex flex-col justify-center items-start">
 
-                    <h1 className='text-2xl font-semibold mb-4'>
+                    <h1 className='text-2xl font-semibold mb-7'>
                         Download
                     </h1>
                     <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>

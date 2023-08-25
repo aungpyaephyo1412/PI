@@ -87,21 +87,21 @@ const Footer = () => {
                     <h1 className='text-2xl font-semibold my-7'>
                         Follow us on
                     </h1>
-                    <div className='flex justify-center items-center gap-x-4'>
+                    <div className='flex justify-center  items-center gap-x-4'>
                         <a href="#">
-                            <img src={Facebook} className='w-[30px] object-cover' alt=""/>
+                            <img src={Facebook} className='w-[50px] h-[50px] object-cover' alt=""/>
                         </a>
                         <a href="#">
-                            <img src={Instagram} className='w-[30px] object-cover' alt=""/>
+                            <img src={Instagram} className='w-[50px] h-[50px] object-cover' alt=""/>
                         </a>
                         <a href="#">
-                            <img src={Viber} className='w-[30px] object-cover' alt=""/>
+                            <img src={Viber} className='w-[50px] h-[50px] object-cover' alt=""/>
                         </a>
                         <a href="#">
-                            <img src={Twitter} className='w-[30px] object-cover' alt=""/>
+                            <img src={Twitter} className='w-[50px] h-[50px] object-cover' alt=""/>
                         </a>
                         <a href="#">
-                            <img src={Telegram} className='w-[30px] object-cover' alt=""/>
+                            <img src={Telegram} className='w-[50px] h-[50px] object-cover' alt=""/>
                         </a>
                     </div>
 

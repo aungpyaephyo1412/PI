@@ -5,7 +5,7 @@ import vape4 from "../assets/DreamShaper_v7_vape_item_only_no_person_6 (1).jpg"
 import {BsArrowRightShort} from "react-icons/bs";
 const Released = () => {
   return(
-      <section className='container mx-auto p-5'>
+      <section className='container mx-auto py-5 px-2'>
             <div className='w-full text-center mb-7'>
                 <h1 className='text-4xl font-extrabold'><span className='text-yellow-500'>New</span> Released</h1>
                 <p className='text-lg font-normal'>Try our latest Flavors here</p>

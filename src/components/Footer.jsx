@@ -25,7 +25,7 @@ const Footer = () => {
                         <FaArrowRotateLeft className='text-xl font-bold'/>
                         Return Policy
                     </a>
-                    <h1 className='text-2xl font-semibold mt-7'>
+                    <h1 className='text-2xl font-semibold my-7'>
                         Payments
                     </h1>
                     <div className='flex justify-center items-center gap-x-4'>
@@ -83,7 +83,7 @@ const Footer = () => {
                         Contact us
                     </h1>
                     <a href="#" className='flex justify-start items-start gap-x-1 text-[17px] mb-2'>
-                        <HiOutlineLocationMarker className='text-6xl mb-3'/>
+                        <HiOutlineLocationMarker className='w-11 h-5'/>
                         <span className='text-sm'>
                             Lay Daunt Kan Main Road, Cashmere Stop, Near Zawanna, Thingangyun Township, Yangon.
                         </span>

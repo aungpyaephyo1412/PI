@@ -10,7 +10,7 @@ import vape9 from "../assets/DreamShaper_v7_vape_item_only_no_person_4 (1).jpg"
 import {BsArrowRight, BsArrowRightShort, BsFillStarFill} from "react-icons/bs";
 const Best = () => {
   return(
-      <section className='container mx-auto min-h-screen flex flex-col justify-center items-center py-5 px-3'>
+      <section className='container mx-auto min-h-screen flex flex-col justify-center items-center py-9 px-3'>
             <div className='w-full mb-7'>
                 <h1 className='text-4xl font-extrabold text-center mb-3'>Best Deals</h1>
                 <p className='text-xl text-center'>Just for you</p>
@@ -19,7 +19,7 @@ const Best = () => {
                 <div className='flex flex-col justify-center items-center relative'>
                     <img src={vape1} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                     <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                        <div className='bg-yellow-500 px-4 text-white'>
+                        <div className='bg-red-500 px-4 text-white'>
                             25% OFF
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Best = () => {
               <div className='flex flex-col justify-center items-center relative'>
                   <img src={vape2} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                   <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                      <div className='bg-yellow-500 px-4 text-white'>
+                      <div className='bg-red-500 px-4 text-white'>
                           25% OFF
                       </div>
                   </div>
@@ -49,7 +49,7 @@ const Best = () => {
               <div className='flex flex-col justify-center items-center relative'>
                   <img src={vape3} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                   <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                      <div className='bg-yellow-500 px-4 text-white'>
+                      <div className='bg-red-500 px-4 text-white'>
                           25% OFF
                       </div>
                   </div>
@@ -64,7 +64,7 @@ const Best = () => {
               <div className='flex flex-col justify-center items-center relative'>
                   <img src={vape4} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                   <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                      <div className='bg-yellow-500 px-4 text-white'>
+                      <div className='bg-red-500 px-4 text-white'>
                           25% OFF
                       </div>
                   </div>
@@ -79,7 +79,7 @@ const Best = () => {
               <div className='flex flex-col justify-center items-center relative'>
                   <img src={vape5} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                   <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                      <div className='bg-yellow-500 px-4 text-white'>
+                      <div className='bg-red-500 px-4 text-white'>
                           25% OFF
                       </div>
                   </div>
@@ -94,7 +94,7 @@ const Best = () => {
               <div className='flex flex-col justify-center items-center relative'>
                   <img src={vape6} className='w-full h-[200px] object-cover object-top rounded-2xl mb-3' alt="vape1"/>
                   <div className="absolute top-0 right-0 left-0 flex justify-center items-center">
-                      <div className='bg-yellow-500 px-4 text-white'>
+                      <div className='bg-red-500 px-4 text-white'>
                           25% OFF
                       </div>
                   </div>

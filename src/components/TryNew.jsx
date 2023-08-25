@@ -29,8 +29,8 @@ const TryNew = () => {
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
                           <img className='sw2-img' src={Girl} alt=""/>
                       </div>
-                      <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
-                          <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
+                      <div className='w-auto absolute right-12 bottom-12  flex flex-col items-center'>
+                          <p className='text-xl md:text-3xl font-bold text-white mb-1'>Try New Flavor</p>
                           <p className='text-sm text-white mb-3'>Citrus Monster</p>
                           <button className='glass px-6 py-2 rounded-full text-white'>
                               View
@@ -41,8 +41,8 @@ const TryNew = () => {
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
                           <img className='sw2-img' src={Girl1} alt=""/>
                       </div>
-                      <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
-                          <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
+                      <div className='w-auto absolute right-12 bottom-12  flex flex-col items-center'>
+                          <p className='text-xl md:text-3xl font-bold text-white mb-1'>Try New Flavor</p>
                           <p className='text-sm text-white mb-3'>Citrus Monster</p>
                           <button className='glass px-6 py-2 rounded-full text-white'>
                               View
@@ -53,8 +53,8 @@ const TryNew = () => {
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
                           <img className='sw2-img' src={Girl2} alt=""/>
                       </div>
-                      <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
-                          <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
+                      <div className='w-auto absolute right-12 bottom-12  flex flex-col items-center'>
+                          <p className='text-xl md:text-3xl font-bold text-white mb-1'>Try New Flavor</p>
                           <p className='text-sm text-white mb-3'>Citrus Monster</p>
                           <button className='glass px-6 py-2 rounded-full text-white'>
                               View
@@ -65,8 +65,8 @@ const TryNew = () => {
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
                           <img className='sw2-img' src={Girl3} alt=""/>
                       </div>
-                      <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
-                          <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
+                      <div className='w-auto absolute right-12 bottom-12  flex flex-col items-center'>
+                          <p className='text-xl md:text-3xl font-bold text-white mb-1'>Try New Flavor</p>
                           <p className='text-sm text-white mb-3'>Citrus Monster</p>
                           <button className='glass px-6 py-2 rounded-full text-white'>
                               View

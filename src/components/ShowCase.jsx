@@ -9,10 +9,10 @@ import 'swiper/css/navigation';
 import "./swiper3.css"
 const ShowCase = () => {
   return(
-      <section className='w-full h-[550px] container mx-auto p-5 showcase'>
+      <section className='w-full h-auto md:h-[550px] container mx-auto p-5 showcase'>
             <div className="bg-url w-full h-full rounded-3xl">
-                <div className="w-full flex h-full">
-                    <div className="w-[35%] flex flex-col justify-center items-center h-full">
+                <div className="w-full flex flex-wrap h-full">
+                    <div className="w-full md:w-[35%] flex flex-col justify-center items-center h-full">
                         <div className="w-full flex justify-center items-center">
                             <img src={IMg} className='block h-[250px]' alt="img"/>
                             <div>
@@ -25,7 +25,7 @@ const ShowCase = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[65%] h-full pb-9 pt-11 relative">
+                    <div className="w-full md:w-[65%] h-full pl-5 md:pl-0 pb-9 pt-11 relative">
                         <div className='w-full h-full'>
                             <Swiper
                                 grabCursor={true}
@@ -136,7 +136,7 @@ const ShowCase = () => {
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
-                            <button className='py-14 px-2 glass rounded text-white button-next-4 absolute right-3 top-[25%] z-30'>
+                            <button className='py-2 md:py-14 px-2 glass rounded text-white button-next-4 absolute right-3 top-[37%] md:top-[25%] z-30'>
                                 <BiRightArrow/>
                             </button>
                         </div>

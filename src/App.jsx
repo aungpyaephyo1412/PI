@@ -4,6 +4,8 @@ import Best from "./components/Best.jsx";
 import Released from "./components/Released.jsx";
 import TryNew from "./components/TryNew.jsx";
 import ShowCase from "./components/ShowCase.jsx";
+import ShowCaseTwo from "./components/ShowCaseTwo.jsx";
+import ShowCaseThree from "./components/ShowCaseThree.jsx";
 
 const App = () => {
   return(
@@ -14,6 +16,8 @@ const App = () => {
           <Released/>
           <TryNew/>
           <ShowCase/>
+          <ShowCaseTwo/>
+          <ShowCaseThree/>
       </>
   )
 }

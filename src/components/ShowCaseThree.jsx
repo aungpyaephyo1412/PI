@@ -1,4 +1,4 @@
-import IMg from '../assets/ddd.png'
+import IMg from '../assets/dd/dd55.png'
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination} from "swiper/modules";
 import {BiRightArrow} from "react-icons/bi";
@@ -14,20 +14,20 @@ import {BsFillStarFill} from "react-icons/bs";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import "./swiper3.css"
-const ShowCase = () => {
-  return(
-      <section className='w-full h-auto md:h-[500px] container mx-auto p-5 showcase'>
-            <div className="bg-url w-full h-full rounded-3xl">
+const ShowCaseThree = () => {
+    return(
+        <section className='w-full h-auto md:h-[500px] container mx-auto p-5 showcase'>
+            <div className="bg-url3 w-full h-full rounded-3xl">
                 <div className="w-full flex flex-wrap h-full">
                     <div className="w-full md:w-[35%] flex flex-col justify-center items-center h-full">
                         <div className="w-full flex gap-x-3 justify-center items-center">
                             <img src={IMg} className='block h-[250px]' alt="img"/>
                             <div>
-                                <h1 className='text-white text-3xl font-bold'>Devices</h1>
+                                <h1 className='text-white text-3xl font-bold'>Disposable</h1>
                                 <p className='text-white text-xl font-normal'>
-                                    Find the best for
+                                    Easy, clean &
                                     <br/>
-                                    you here!
+                                    superb flavor
                                 </p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ const ShowCase = () => {
                     </div>
                 </div>
             </div>
-      </section>
-  )
+        </section>
+    )
 }
-export default ShowCase
+export default ShowCaseThree

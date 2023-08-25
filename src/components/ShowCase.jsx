@@ -1,6 +1,6 @@
 const ShowCase = () => {
   return(
-      <section>
+      <section className='w-full min-h-screen'>
 
       </section>
   )

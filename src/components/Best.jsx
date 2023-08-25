@@ -10,7 +10,7 @@ import vape9 from "../assets/DreamShaper_v7_vape_item_only_no_person_4 (1).jpg"
 import {BsArrowRight, BsArrowRightShort, BsFillStarFill} from "react-icons/bs";
 const Best = () => {
   return(
-      <section className='w-full min-h-screen flex flex-col justify-center items-center p-5'>
+      <section className='container mx-auto min-h-screen flex flex-col justify-center items-center p-5'>
             <div className='w-full mb-7'>
                 <h1 className='text-4xl font-extrabold text-center mb-3'>Best Deals</h1>
                 <p className='text-xl text-center'>Just for you</p>

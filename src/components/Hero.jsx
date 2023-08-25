@@ -34,7 +34,7 @@ const Hero = () => {
               >
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0">
-                          <img src={Girl} alt=""/>
+                          <img className='sw1-img' src={Girl} alt=""/>
                       </div>
                       <div className='w-full absolute right-0 left-0 bottom-12'>
                             <p className='text-xl md:text-3xl text-white mb-5'>The Best Look</p>
@@ -47,7 +47,7 @@ const Hero = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0">
-                          <img src={Girl1} alt=""/>
+                          <img className='sw1-img' src={Girl1} alt=""/>
                       </div>
                       <div className='w-full absolute right-0 left-0 bottom-12'>
                           <p className='text-xl md:text-3xl text-white mb-5'>The Best Look</p>
@@ -60,7 +60,7 @@ const Hero = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0">
-                          <img src={Girl2} alt=""/>
+                          <img className='sw1-img' src={Girl2} alt=""/>
                       </div>
                       <div className='w-full absolute right-0 left-0 bottom-12'>
                           <p className='text-xl md:text-3xl text-white mb-5'>The Best Look</p>
@@ -73,7 +73,7 @@ const Hero = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0">
-                          <img src={Girl3} alt=""/>
+                          <img className='sw1-img' src={Girl3} alt=""/>
                       </div>
                       <div className='w-full absolute right-0 left-0 bottom-12'>
                           <p className='text-xl md:text-3xl text-white mb-5'>The Best Look</p>
@@ -86,7 +86,7 @@ const Hero = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0">
-                          <img src={Girl4} alt=""/>
+                          <img className='sw1-img' src={Girl4} alt=""/>
                       </div>
                       <div className='w-full absolute right-0 left-0 bottom-12'>
                           <p className='text-xl md:text-3xl text-white mb-5'>The Best Look</p>

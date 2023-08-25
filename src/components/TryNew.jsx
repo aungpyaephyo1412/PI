@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import "./swiper2.css"
 const TryNew = () => {
   return(
-      <section className='pl-5 py-5  relative'>
+      <section className='container ml-auto pl-5 md:pl-0 py-5  relative'>
           <div className='w-full h-[200px]'>
               <Swiper
                   grabCursor={true}
@@ -27,7 +27,7 @@ const TryNew = () => {
               >
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
-                          <img src={Girl} alt=""/>
+                          <img className='sw2-img' src={Girl} alt=""/>
                       </div>
                       <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
                           <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
@@ -39,7 +39,7 @@ const TryNew = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
-                          <img src={Girl1} alt=""/>
+                          <img className='sw2-img' src={Girl1} alt=""/>
                       </div>
                       <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
                           <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
@@ -51,7 +51,7 @@ const TryNew = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
-                          <img src={Girl2} alt=""/>
+                          <img className='sw2-img' src={Girl2} alt=""/>
                       </div>
                       <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
                           <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>
@@ -63,7 +63,7 @@ const TryNew = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
-                          <img src={Girl3} alt=""/>
+                          <img className='sw2-img' src={Girl3} alt=""/>
                       </div>
                       <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
                           <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>

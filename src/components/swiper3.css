@@ -1,0 +1,14 @@
+.showcase .swiper-slide {
+    width: auto;
+    background: transparent;
+}
+.swiper-slide .sw3-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+.swiper-wrapper{
+    background: transparent;
+}

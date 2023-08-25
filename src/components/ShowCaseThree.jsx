@@ -40,7 +40,7 @@ const ShowCaseThree = () => {
                                 spaceBetween={10}
                                 pagination={{ el: '.swiper-pagination', clickable: true }}
                                 navigation={{
-                                    nextEl: '.button-next-4',
+                                    nextEl: '.button-next-99',
                                     clickable: true,
                                 }}
                                 modules={[Pagination,Navigation]}
@@ -143,7 +143,7 @@ const ShowCaseThree = () => {
                                     </div>
                                 </SwiperSlide>
                             </Swiper>
-                            <button className='py-2 md:py-14 px-2 glass rounded text-white button-next-4 absolute right-3 top-[33%] md:top-[25%] z-30'>
+                            <button className='py-2 md:py-14 px-2 glass rounded text-white button-next-99 absolute right-3 top-[33%] md:top-[25%] z-30'>
                                 <BiRightArrow/>
                             </button>
                         </div>

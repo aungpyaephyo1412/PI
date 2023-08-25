@@ -25,18 +25,6 @@ const Footer = () => {
                         <FaArrowRotateLeft className='text-xl font-bold'/>
                         Return Policy
                     </a>
-                    <h1 className='text-2xl font-semibold my-7'>
-                        Payments
-                    </h1>
-                    <div className='flex justify-center items-center gap-x-4'>
-                        <a href="#">
-                            <img src={KBZ} className='w-[50px]  h-[50px] rounded-xl object-cover' alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src={Wave} className='w-[50px] h-[50px] rounded-xl object-cover' alt=""/>
-                        </a>
-                    </div>
-
                 </div>
                 <div className="flex flex-col justify-center items-start">
 
@@ -54,26 +42,6 @@ const Footer = () => {
                     <div className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <input type='radio' id='eng' name="language" className='cursor-pointer'/>
                         <label htmlFor='eng'>English </label>
-                    </div>
-                    <h1 className='text-2xl font-semibold my-7'>
-                        Follow us on
-                    </h1>
-                    <div className='flex justify-center items-center gap-x-4'>
-                        <a href="#">
-                            <img src={Facebook} className='w-[30px] object-cover' alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src={Instagram} className='w-[30px] object-cover' alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src={Viber} className='w-[30px] object-cover' alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src={Twitter} className='w-[30px] object-cover' alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src={Telegram} className='w-[30px] object-cover' alt=""/>
-                        </a>
                     </div>
 
                 </div>
@@ -101,6 +69,42 @@ const Footer = () => {
                     <a href="#" className='flex justify-center items-center gap-x-1 text-[17px]'>
                         <img src={QR} className='h-[100px]' alt=""/>
                     </a>
+                </div>
+                <div className='flex flex-col justify-start items-start'>
+                    <h1 className='text-2xl font-semibold my-7'>
+                        Payments
+                    </h1>
+                    <div className='flex justify-center items-center gap-x-4'>
+                        <a href="#">
+                            <img src={KBZ} className='w-[50px]  h-[50px] rounded-xl object-cover' alt=""/>
+                        </a>
+                        <a href="#">
+                            <img src={Wave} className='w-[50px] h-[50px] rounded-xl object-cover' alt=""/>
+                        </a>
+                    </div>
+                    </div>
+                <div className='flex flex-col justify-start items-start'>
+                    <h1 className='text-2xl font-semibold my-7'>
+                        Follow us on
+                    </h1>
+                    <div className='flex justify-center items-center gap-x-4'>
+                        <a href="#">
+                            <img src={Facebook} className='w-[30px] object-cover' alt=""/>
+                        </a>
+                        <a href="#">
+                            <img src={Instagram} className='w-[30px] object-cover' alt=""/>
+                        </a>
+                        <a href="#">
+                            <img src={Viber} className='w-[30px] object-cover' alt=""/>
+                        </a>
+                        <a href="#">
+                            <img src={Twitter} className='w-[30px] object-cover' alt=""/>
+                        </a>
+                        <a href="#">
+                            <img src={Telegram} className='w-[30px] object-cover' alt=""/>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </footer>

@@ -2,6 +2,7 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import "../index.css"
 import Girl from "../assets/girl.jpg"
 import Girl1 from "../assets/girl2.jpg"
@@ -12,7 +13,7 @@ import "./swiper.css"
 
 // import required modules
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Autoplay, Navigation, Pagination} from "swiper/modules";
+import {EffectFade,Autoplay, Navigation, Pagination} from "swiper/modules";
 import {BiLeftArrow, BiRightArrow} from "react-icons/bi";
 const Hero = () => {
   return(
@@ -21,15 +22,21 @@ const Hero = () => {
               <Swiper
                       grabCursor={true}
                       loop={true}
-                      autoplay={true}
+                      autoplay={{
+                          delay: 2500,
+                          disableOnInteraction: false,
+                      }}
+                      effect={'fade'}
                       slidesPerView={1}
-                      pagination={{ el: '.swiper-pagination', clickable: true }}
+                      pagination={{
+                          dynamicBullets: true,
+                      }}
                       navigation={{
                           nextEl: '.button-next-2',
                           prevEl: '.button-prev-2',
                           clickable: true,
                       }}
-                      modules={[Autoplay,Pagination,Navigation]}
+                      modules={[EffectFade,Autoplay,Pagination,Navigation]}
                       className="swiper_container"
               >
                   <SwiperSlide className='w-full h-full flex justify-center relative'>

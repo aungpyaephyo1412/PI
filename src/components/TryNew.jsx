@@ -39,7 +39,7 @@ const TryNew = () => {
                   </SwiperSlide>
                   <SwiperSlide className='w-full h-full flex justify-center relative'>
                       <div className="absolute inset-0  rounded-3xl overflow-hidden">
-                          <img className='sw2-img' src={Girl1} alt=""/>
+                          <img className='sw2-img pl-2' src={Girl1} alt=""/>
                       </div>
                       <div className='w-auto absolute right-12 bottom-12 flex flex-col items-center'>
                           <p className='text-3xl font-bold text-white mb-1'>Try New Flavor</p>

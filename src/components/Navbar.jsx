@@ -20,7 +20,7 @@ const Navbar = () => {
   return(
       <header className='fixed top-0 right-0 left-0 z-[10000] nav'>
           <div className='container mx-auto'>
-                <div className="w-full flex justify-between items-center px-9 py-4">
+                <div className="w-full flex justify-between items-center px-3 md:px-9 py-4">
                     <div className='text-xl font-extrabold text-white'>
                         PI
                     </div>

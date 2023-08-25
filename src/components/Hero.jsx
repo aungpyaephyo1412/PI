@@ -8,6 +8,7 @@ import Girl1 from "../assets/girl2.jpg"
 import Girl2 from "../assets/girl3.jpg"
 import Girl3 from "../assets/girl4.jpg"
 import Girl4 from "../assets/girl5.jpg"
+import "./swiper.css"
 
 // import required modules
 import {Swiper, SwiperSlide} from "swiper/react";
